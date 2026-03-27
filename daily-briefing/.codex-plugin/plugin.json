@@ -1,0 +1,30 @@
+{
+  "name": "daily-briefing",
+  "version": "1.0.0",
+  "description": "Daily intelligence briefing with schedule, weather, markets, and news. Configurable sections, multiple data sources, runs on schedule or on demand.",
+  "author": {
+    "name": "Aaron Makelky",
+    "email": "aaron@m4ward.win",
+    "url": "https://x.com/theaaron"
+  },
+  "homepage": "https://github.com/a-makelky/codex-plugins/tree/main/daily-briefing",
+  "repository": "https://github.com/a-makelky/codex-plugins",
+  "license": "MIT",
+  "keywords": ["briefing", "schedule", "weather", "markets", "news", "daily", "productivity", "calendar"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Daily Briefing Engine",
+    "shortDescription": "Start every day with a structured intelligence packet.",
+    "longDescription": "Two skills that produce a daily briefing: (1) Briefing Data fetches weather, markets, and news from free public APIs with zero-config defaults. (2) Briefing Engine assembles everything into a formatted briefing with your calendar, weather, market snapshot, top news, and a daily focus suggestion. Runs on a cron schedule or on demand. Every section is optional and configurable — use what matters, skip what doesn't.",
+    "developerName": "Aaron Makelky",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://x.com/theaaron",
+    "defaultPrompt": [
+      "Run my daily briefing.",
+      "What's on my schedule today?",
+      "Brief me on markets and weather."
+    ],
+    "brandColor": "#1B2838"
+  }
+}
