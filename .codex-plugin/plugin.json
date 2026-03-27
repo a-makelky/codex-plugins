@@ -1,0 +1,30 @@
+{
+  "name": "anti-ai-voice-auditor",
+  "version": "1.0.0",
+  "description": "Detect and remove AI writing patterns from your content. Includes pattern auditor, LinkedIn hook generator, and a voice guide template.",
+  "author": {
+    "name": "Aaron Makelky",
+    "email": "aaron@m4ward.win",
+    "url": "https://x.com/theaaron"
+  },
+  "homepage": "https://github.com/a-makelky/codex-plugins/tree/main/anti-ai-voice-auditor",
+  "repository": "https://github.com/a-makelky/codex-plugins",
+  "license": "MIT",
+  "keywords": ["writing", "ai-detection", "voice", "linkedin", "content", "editing"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Anti-AI Voice Auditor",
+    "shortDescription": "Catch AI writing patterns before your readers do.",
+    "longDescription": "Three skills in one plugin: (1) AI Writing Audit scans content for 16+ categories of AI tells — clichés, inflated phrases, weasel words, structural red flags. (2) LinkedIn Hook Writer generates 10 pattern-breaking hooks using 5 proven techniques. (3) Voice Guide template helps you define and enforce authentic writing voice across all content. Built from a production content pipeline that runs daily.",
+    "developerName": "Aaron Makelky",
+    "category": "Writing",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://x.com/theaaron",
+    "defaultPrompt": [
+      "Run the AI writing audit on my latest draft.",
+      "Generate LinkedIn hooks for this content.",
+      "Help me define my writing voice using the voice guide template."
+    ],
+    "brandColor": "#1A1A2E"
+  }
+}
