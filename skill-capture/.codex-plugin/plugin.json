@@ -1,0 +1,30 @@
+{
+  "name": "skill-capture",
+  "version": "1.0.0",
+  "description": "Turn any conversation or workflow into a reusable, versioned skill. The tool that builds tools. Detects reusable patterns in chat, scaffolds skill directories, writes SKILL.md files, and maintains a capture log.",
+  "author": {
+    "name": "Aaron Makelky",
+    "email": "aaron@m4ward.win",
+    "url": "https://x.com/theaaron"
+  },
+  "homepage": "https://github.com/a-makelky/codex-plugins/tree/main/skill-capture",
+  "repository": "https://github.com/a-makelky/codex-plugins",
+  "license": "MIT",
+  "keywords": ["skill", "workflow", "automation", "scaffold", "template", "capture", "meta"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Skill Capture",
+    "shortDescription": "The tool that builds tools. Turn workflows into reusable skills.",
+    "longDescription": "Two skills that convert conversations into durable automations: (1) Skill Capture detects reusable patterns in your chat history, scaffolds a proper skill directory with SKILL.md frontmatter, writes deterministic instructions, and maintains a versioned capture log. (2) Skill Auditor reviews existing skills for quality — checking frontmatter completeness, context efficiency, progressive disclosure, and adherence to the skill spec. Every Codex power user needs this. Most people don't know how to go from 'I just did something useful' to 'I have a reusable workflow.' This plugin automates that transition.",
+    "developerName": "Aaron Makelky",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://x.com/theaaron",
+    "defaultPrompt": [
+      "Turn this conversation into a skill.",
+      "Audit my skill for quality.",
+      "Create a new skill from this workflow."
+    ],
+    "brandColor": "#6B21A8"
+  }
+}
