@@ -1,0 +1,30 @@
+{
+  "name": "transcript-to-content",
+  "version": "1.0.0",
+  "description": "Paste a URL, get publish-ready content. Scrapes transcripts from YouTube, Instagram, TikTok, and X, extracts key insights, and drafts posts in your voice.",
+  "author": {
+    "name": "Aaron Makelky",
+    "email": "aaron@m4ward.win",
+    "url": "https://x.com/theaaron"
+  },
+  "homepage": "https://github.com/a-makelky/codex-plugins/tree/main/transcript-to-content",
+  "repository": "https://github.com/a-makelky/codex-plugins",
+  "license": "MIT",
+  "keywords": ["transcript", "youtube", "content", "social-media", "scraping", "learning", "podcast"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Transcript to Content",
+    "shortDescription": "Paste a URL, get publish-ready content.",
+    "longDescription": "Three skills that turn any video or audio URL into content: (1) Transcript Scraper fetches transcripts from YouTube, Instagram, TikTok, and X. (2) Insight Extractor pulls key concepts, quotes, and content angles from transcripts. (3) Transcript to Content orchestrates the full pipeline — URL in, drafted post out. Works for YouTube videos, podcasts, TikToks, Instagram content, and meeting recordings. Every podcaster, researcher, and 'learn in public' creator needs this.",
+    "developerName": "Aaron Makelky",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://x.com/theaaron",
+    "defaultPrompt": [
+      "Turn this video into a LinkedIn post: [URL]",
+      "Scrape the transcript from this: [URL]",
+      "Extract key insights from this video: [URL]"
+    ],
+    "brandColor": "#4A154B"
+  }
+}
