@@ -1,0 +1,30 @@
+{
+  "name": "content-flywheel",
+  "version": "1.0.0",
+  "description": "End-to-end content production pipeline. Raw notes in, publish-ready posts out. Automates intake, drafting, AI-pattern auditing, hook generation, and posting queue management.",
+  "author": {
+    "name": "Aaron Makelky",
+    "email": "aaron@m4ward.win",
+    "url": "https://x.com/theaaron"
+  },
+  "homepage": "https://github.com/a-makelky/codex-plugins/tree/main/content-flywheel",
+  "repository": "https://github.com/a-makelky/codex-plugins",
+  "license": "MIT",
+  "keywords": ["content", "pipeline", "linkedin", "writing", "ai-detection", "social-media", "automation"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Content Flywheel",
+    "shortDescription": "Raw notes in, publish-ready posts out. A complete content production system.",
+    "longDescription": "Six skills that form a complete content production pipeline: (1) Content Intake scans your notes and transcripts for post-worthy ideas. (2) Content Writer drafts in your authentic voice using a voice guide. (3) AI Writing Audit catches 16+ categories of AI patterns. (4) LinkedIn Hook Writer generates 10 pattern-breaking hooks. (5) Content Flywheel orchestrates the full pipeline end-to-end. (6) Garrison Queue manages your posting queue from draft to posted to archived. Built from a production system that runs daily.",
+    "developerName": "Aaron Makelky",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://x.com/theaaron",
+    "defaultPrompt": [
+      "Run the content flywheel to process my notes into publish-ready posts.",
+      "Check my posting queue status.",
+      "Feed the hopper with today's content."
+    ],
+    "brandColor": "#2D5A27"
+  }
+}
